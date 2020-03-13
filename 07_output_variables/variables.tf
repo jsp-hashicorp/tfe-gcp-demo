@@ -32,6 +32,6 @@ variable "machine_types" {
   default = {
     "dev" = "f1-micro"
     "test"  = "n1-standard-2"
-    "prod"  = "n1-highcpu-32"
+    "prod"  = "n1-standard-4"
   }
 }
