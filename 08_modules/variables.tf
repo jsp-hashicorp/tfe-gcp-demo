@@ -23,7 +23,10 @@ variable "credentials_file" {
    default = "/Users/junspark/code/playground/tf-gcp/hc-jsp-gcp-test-94d796ce3b58.json"
 #  default = "hc-jsp-gcp-test-94d796ce3b58.json"
 }
-
+variable "service_account_key" {
+  # default = "hc-gcp.json"
+  type = string
+}
 
 variable "region" {
   default = "asia-northeast3"
