@@ -24,14 +24,14 @@ variable "zone" {
 
 variable "environment" {
   type = string 
-  default = "test"
+  default = "prod"
 }
 
 variable "machine_types" {
   type = map
   default = {
     "dev" = "f1-micro"
-    "test"  = "n1-standard-1"
-    "prod"  = "n1-standrad-2"
+    "test"  = "n1-standard-2"
+    "prod"  = "n1-highcpu-32"
   }
 }
