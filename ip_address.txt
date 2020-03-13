@@ -1,2 +1,0 @@
-terraform-jsp-instance: 34.64.171.2
-terraform-jsp-instance: 34.64.171.2
