@@ -24,7 +24,7 @@ variable "zone" {
 
 variable "environment" {
   type = string 
-  default = "prod"
+  default = "dev"
 }
 
 variable "machine_types" {
