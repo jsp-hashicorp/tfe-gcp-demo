@@ -35,3 +35,8 @@ variable "machine_types" {
     "prod"  = "n1-standard-4"
   }
 }
+
+variable "num" {
+  type = number
+  default = 2
+ }
