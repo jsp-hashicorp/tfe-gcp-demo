@@ -51,8 +51,10 @@ resource "google_storage_bucket" "example_bucket" {
 resource "google_compute_instance" "another_instance" {
   depends_on = [google_storage_bucket.example_bucket]
   
-  name         = "tf-instance-2"
+  count = var.num
+  name         = "tf-instance-${count.index}"
   machine_type = "f1-micro"
+  #machine_type = "g1-small"
 
   boot_disk {
     initialize_params {
