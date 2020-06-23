@@ -31,7 +31,7 @@ variable "machine_types" {
   type = map
   default = {
     "dev" = "f1-micro"
-    "test"  = "n1-standard-2"
+    "test"  = "g1-small"
     "prod"  = "n1-standard-4"
   }
 }
